@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){int s;
+	    int a,b,ans;
+	    cin>>a>>b;
+	    if(a==b)
+	    cout<<"1"<<endl;
+	    else
+	    {
+	       ans=(b+b)-(a+a);
+	        cout<<ans+1<<endl;
+	    }
+	   
+	}
+	return 0;
+}
